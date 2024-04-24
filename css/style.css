@@ -711,7 +711,7 @@ slider-product-one-content-item .slider-product-one-content {
 }
 
 .product-gallery-one-content-product-item:hover {
-    box-shadow: 3px 3px 5px rgb(246, 242, 242);
+    box-shadow: 10px 10px 10px rgb(209, 180, 180);
 }
 
 .product-gallery-one-content-product-item a>img {
@@ -729,8 +729,8 @@ slider-product-one-content-item .slider-product-one-content {
 
 .product-gallery-one-content-product-item-text li:first-child {
     height: 30px;
-    width: 70%;
-    background-color: #2887D4;
+    width: 100%;
+    background-color: #ef0707;
     display: inline-block;
     margin-bottom: 20px;
     align-items: center;
