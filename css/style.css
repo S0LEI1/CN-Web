@@ -30,7 +30,7 @@ ul {
 
 /* ----------------------------Nav----------------- */
 nav {
-    background-color: #232b2b;
+    background-color: #ff7309;
 }
 
 nav ul {
@@ -47,12 +47,13 @@ a {
 }
 
 nav ul li:nth-child(2) i {
-    color: #DC3D24;
+    color: #e8ec00;
     font-size: 15px;
+    margin-left: 10px;
 }
 
 nav ul li:nth-child(2) a {
-    color: #DC3D24;
+    color: #0be400;
     margin-left: 6px;
 }
 
@@ -73,18 +74,21 @@ nav ul li:nth-child(3) i {
     position: absolute;
     font-size: 15px;
     right: 12px;
-    color: #333;
+    color: #f12323;
     line-height: 30px;
     cursor: pointer;
+    
+    
 }
 
-nav ul li:nth-child(4) button {
-    height: 30px;
+nav ul li button {
+    height: 40px;
+    width: 200px;
     padding: 0 12px;
     cursor: pointer;
     background-color: transparent;
-    color: white;
-    border: 1px solid rgb(60, 58, 58);
+    color: rgb(0, 26, 255);
+    border: 1px solid rgb(223, 37, 37);
     border-radius: 5px;
     transition: all 0.3 ease;
 }
@@ -94,7 +98,7 @@ nav ul li:nth-child(4) i {
 }
 
 nav ul li:nth-child(4) button:hover {
-    background-color: rgb(100, 97, 96);
+    background-color: rgb(232, 68, 14);
 }
 
 nav ul li:nth-child(5) {
@@ -157,7 +161,7 @@ nav ul li:nth-child(9):hover a {
 
 /*----------------menu-bar------------------------*/
 .menu-bar {
-    background-color: #DC3D24;
+    background-color: #ffffff;
 }
 
 .menu-bar ul {
@@ -181,7 +185,7 @@ nav ul li:nth-child(9):hover a {
 }
 
 .menu-bar ul li:hover {
-    background-color: white;
+    background-color: rgb(193, 214, 238);
 }
 
 .menu-bar-container>ul>li:nth-child(8) {
